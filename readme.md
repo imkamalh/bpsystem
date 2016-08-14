@@ -3,7 +3,7 @@
 
 - Bogor Agricultural University
 - Badan Pusat Statistik
-- 
+
 # Our Teams
 1. Andy Eka Saputra
 2. Muhammad Alvian Supriadi
