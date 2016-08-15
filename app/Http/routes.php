@@ -26,6 +26,10 @@ Route::get('home', 'HomeController@index');
 //import
 Route::post('import', 'ExcelController@wilayah'); 
 
+//administrasi
+Route::get('{id_Survey}/administrasi','AdministrasiController@index');
+Route::get('administrasi/delete/{id_User}', 'AdministrasiController@delete');
+
 //Survey
 Route::get('createsurvey', 'SurveyController@index');
 Route::post('survey/create', 'SurveyController@create');
